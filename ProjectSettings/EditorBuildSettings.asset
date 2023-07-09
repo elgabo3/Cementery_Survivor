@@ -30,8 +30,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Nivel3.unity
     guid: ea0d277e65b665a418eda38c485f18a2
   - enabled: 1
-    path: Assets/Scenes/Final.unity
-    guid: 197c011840b996b4cbb01175e830ad1e
+    path: Assets/Scenes/Final 2.unity
+    guid: 58e32c72a472f4647af01f6321294437
   - enabled: 1
     path: Assets/Scenes/Perder.unity
     guid: 63aa6ed1c47fa1644a79ee7776e66d33
