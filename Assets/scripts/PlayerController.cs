@@ -8,6 +8,12 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Control Personaje")]
     [Header("Vida Personaje")]
+
+    [Header("Animacion")]
+
+    private Animator animator;
+
+
     public int vidaTotal;
     public   int vidaActual;
     public TMP_Text textoVidaPlayer;
@@ -33,11 +39,15 @@ public class PlayerController : MonoBehaviour
     {
         vidaActual=vidaTotal;
         rigidbody2D= GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update() {
         //Movimiento Horizontal del personaje
         horizontal= Input.GetAxisRaw("Horizontal");
+
+        animator.SetFloat("Horizontal", Mathf.Abs(horizontal));
+
         if(horizontal!=0 ){
             transform.position += Vector3.right * horizontal * fuerzaHorizontal* Time.deltaTime;
         }
