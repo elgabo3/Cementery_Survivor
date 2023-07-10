@@ -2188,6 +2188,14 @@ PrefabInstance:
       propertyPath: textoVidaPlayer
       value: 
       objectReference: {fileID: 1762038883}
+    - target: {fileID: 4535839298938845038, guid: da2e27aa3dc41a94f8c0cf970668ec13, type: 3}
+      propertyPath: posicionInicial.x
+      value: -5.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4535839298938845038, guid: da2e27aa3dc41a94f8c0cf970668ec13, type: 3}
+      propertyPath: posicionInicial.y
+      value: -2.22
+      objectReference: {fileID: 0}
     - target: {fileID: 7115922577096671626, guid: da2e27aa3dc41a94f8c0cf970668ec13, type: 3}
       propertyPath: m_RootOrder
       value: 4

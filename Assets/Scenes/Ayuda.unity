@@ -731,18 +731,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Movement:
-
-    Move Right --- Right Arrow or D
-
-    Move Left --- Left
-    Arrow or A
-
-    Jump --- Up Arrow or W
-
-
-    IMPORTANT: Avoid touching the ghost
-    or you will lose life.'
+  m_text: "Movement:\nMove Right --- Right Arrow or D\nMove Left --- Left Arrow or
+    A\nJump --- Up Arrow or W\n\nIMPORTANT: Avoid touching the ghost or you will
+    lose life and will start over the level. \nIf you fall through an abysm, you
+    lose!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
