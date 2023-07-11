@@ -2686,7 +2686,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 20
   m_TargetDisplay: 0
 --- !u!114 &1865445932
 MonoBehaviour:
@@ -3241,7 +3241,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8674310269538209122, guid: dc5e5361ef4e7ef4d97c49bbffd1958f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4162.804
+      value: -3980.7288
       objectReference: {fileID: 0}
     - target: {fileID: 8674310269538209122, guid: dc5e5361ef4e7ef4d97c49bbffd1958f, type: 3}
       propertyPath: m_LocalRotation.w
